@@ -1,0 +1,6 @@
+# Partial snapshot of selected current conda metadata, not a complete export/lock.
+# Historical use, dependency closure, platform builds and solvability NOT verified.
+name: gastric-observed-salmon
+channels: [conda-forge, bioconda]
+dependencies:
+  - salmon=2.8.0

@@ -1,0 +1,8 @@
+# Partial snapshot of selected current conda metadata, not a complete export/lock.
+# Historical use, dependency closure, platform builds and solvability NOT verified.
+name: gastric-observed-a3net
+channels: [conda-forge, bioconda]
+dependencies:
+  - curl=8.23.0
+  - fastspar=1.0.0
+  - r-base=4.5.3

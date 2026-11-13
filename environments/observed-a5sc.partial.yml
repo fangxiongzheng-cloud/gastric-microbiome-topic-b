@@ -1,0 +1,9 @@
+# Partial snapshot of selected current conda metadata, not a complete export/lock.
+# Historical use, dependency closure, platform builds and solvability NOT verified.
+name: gastric-observed-a5sc
+channels: [conda-forge, bioconda]
+dependencies:
+  - curl=8.23.0
+  - numpy=2.5.4
+  - python=3.14.10
+  - r-base=4.4.3

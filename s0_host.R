@@ -1,0 +1,11 @@
+suppressMessages({library(TCGAbiolinks)})
+st <- TCGAquery_subtype("stad"); write.csv(st,"stad_subtype.csv",row.names=F)
+print(table(st$`Molecular.Subtype`,useNA="ifany")); print(table(st$`Lauren.Class`,useNA="ifany"))
+q <- GDCquery(project="TCGA-STAD",data.category="Transcriptome Profiling",data.type="Gene Expression Quantification",workflow.type="STAR - Counts")
+r <- getResults(q); write.csv(r[,c("cases","sample_type")],"stad_star_manifest.csv",row.names=F)
+print(table(r$sample_type))
+m <- read.delim("/REPLACE_WITH_RIGHTS_CLEARED_LEGACY_INPUTS/myco/metadata_genus_WIS_overlapping_fungi_bacteria_14494samples.tsv")
+m <- m[grepl("STAD",m$investigation) & m$sample_type=="Primary Tumor" & m$experimental_strategy=="RNA-Seq",]
+cs <- unique(m$tcga_case_id); cat("NH PT RNA cases",length(cs),"\n")
+cat("with STAR PT:",sum(cs %in% substr(r$cases[r$sample_type=="Primary Tumor"],1,12)),"\n")
+sub <- st[st$patient %in% cs,]; cat("with mol subtype:\n"); print(table(sub$`Molecular.Subtype`)); print(table(sub$`Lauren.Class`))

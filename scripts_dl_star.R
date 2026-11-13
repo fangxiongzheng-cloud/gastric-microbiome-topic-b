@@ -1,0 +1,5 @@
+suppressMessages(library(TCGAbiolinks)); suppressMessages(library(SummarizedExperiment))
+setwd("data/host/star")
+q<-GDCquery(project="TCGA-STAD",data.category="Transcriptome Profiling",data.type="Gene Expression Quantification",workflow.type="STAR - Counts")
+GDCdownload(q,files.per.chunk=50)
+se<-GDCprepare(q); saveRDS(se,"stad_star_se.rds"); cat("done",dim(se),"\n")

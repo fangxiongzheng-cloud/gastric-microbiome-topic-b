@@ -1,0 +1,12 @@
+# Documentary template, NOT a solved environment or run-time certification.
+# Python minor/micro version is from Methods v1f; installed package snapshots are separate.
+name: gastric-analysis-candidate
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11.18
+  - pip  # version not verified
+# Install selected Python distributions from python-observed-requirements.txt only
+# after authors reconcile the observed shotgun Python 3.14.10 runtime discrepancy.
+# R analysis and A5 R environments are distinct; see version catalogs and README.

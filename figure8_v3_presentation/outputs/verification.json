@@ -1,0 +1,395 @@
+{
+  "all_passed": true,
+  "checks": {
+    "eleven_edges": true,
+    "association_identities": true,
+    "eight_nodes": true,
+    "comp_has_no_edge": true,
+    "eleven_exported_SVG_edges": true,
+    "effects_within_1e_12": true,
+    "uninterrupted_edge_paths": true,
+    "signs_unchanged": true,
+    "five_solid_A4_dashdot_five_dashed": true,
+    "width_bins_original_generator": true,
+    "width_bin_boundaries": true,
+    "signed_rounded_labels": true,
+    "signed_colours": true,
+    "E1a_F2_Korea_only": true,
+    "E1a_locked_effect": true,
+    "PRJNA310127_retained_not_displayed": true,
+    "two_distinct_E10_edges": true,
+    "no_arrowheads": true,
+    "editable_svg_text": true,
+    "no_SVG_raster_images": true,
+    "byte_identical_source_tables": true,
+    "PNG_dpi_at_least_300": true,
+    "PNG_declared_170_mm": true,
+    "SVG_declared_170_mm": true,
+    "fonts_configured_42": true,
+    "PDF_fonts_embedded": true,
+    "PDF_vector_no_images": true,
+    "PDF_declared_170_by_160_mm": true,
+    "on_figure_text_minimum_6_8_pt": true,
+    "no_label_masks": true,
+    "no_audit_footer_on_figure": true,
+    "caption_length_limits": true,
+    "geometry_clear": true,
+    "v2_hashes_match_before_and_after": true
+  },
+  "details": {
+    "effects_within_1e_12": [
+      {
+        "analysis_id": "A1",
+        "effect_csv": "0.80727874276261369",
+        "effect_used": 0.8072787427626137,
+        "absolute_error": 1e-17,
+        "sign_matches": true
+      },
+      {
+        "analysis_id": "F2",
+        "effect_csv": "0.6363105507631055",
+        "effect_used": 0.6363105507631055,
+        "absolute_error": 0.0,
+        "sign_matches": true
+      },
+      {
+        "analysis_id": "H-M1",
+        "effect_csv": "-0.27432593007029926",
+        "effect_used": -0.27432593007029926,
+        "absolute_error": 0.0,
+        "sign_matches": true
+      },
+      {
+        "analysis_id": "H-M2",
+        "effect_csv": "0.20671435505121777",
+        "effect_used": 0.20671435505121777,
+        "absolute_error": 0.0,
+        "sign_matches": true
+      },
+      {
+        "analysis_id": "H-M3",
+        "effect_csv": "0.17706029825328118",
+        "effect_used": 0.17706029825328118,
+        "absolute_error": 0.0,
+        "sign_matches": true
+      },
+      {
+        "analysis_id": "E1c",
+        "effect_csv": "-0.086342400479231654",
+        "effect_used": -0.08634240047923165,
+        "absolute_error": 4e-18,
+        "sign_matches": true
+      },
+      {
+        "analysis_id": "E1a",
+        "effect_csv": "0.07157835860316486",
+        "effect_used": 0.07157835860316486,
+        "absolute_error": 0.0,
+        "sign_matches": true
+      },
+      {
+        "analysis_id": "E10 IM",
+        "effect_csv": "-0.35804172723103489",
+        "effect_used": -0.3580417272310349,
+        "absolute_error": 1e-17,
+        "sign_matches": true
+      },
+      {
+        "analysis_id": "E10 atrophy",
+        "effect_csv": "-0.35870166266530551",
+        "effect_used": -0.3587016626653055,
+        "absolute_error": 1e-17,
+        "sign_matches": true
+      },
+      {
+        "analysis_id": "A4",
+        "effect_csv": "-0.27888835103505222",
+        "effect_used": -0.2788883510350522,
+        "absolute_error": 2e-17,
+        "sign_matches": true
+      },
+      {
+        "analysis_id": "E9 niche",
+        "effect_csv": "0.37556552508283741",
+        "effect_used": 0.3755655250828374,
+        "absolute_error": 1e-17,
+        "sign_matches": true
+      }
+    ],
+    "five_solid_A4_dashdot_five_dashed": [
+      {
+        "analysis_id": "A1",
+        "svg_style": "solid",
+        "svg_linewidth_pt": 4.5,
+        "expected_style": "solid",
+        "width_bin": ">0.4",
+        "stroke_dasharray": null,
+        "stroke_colour": "#d55e00"
+      },
+      {
+        "analysis_id": "F2",
+        "svg_style": "solid",
+        "svg_linewidth_pt": 4.5,
+        "expected_style": "solid",
+        "width_bin": ">0.4",
+        "stroke_dasharray": null,
+        "stroke_colour": "#d55e00"
+      },
+      {
+        "analysis_id": "H-M1",
+        "svg_style": "solid",
+        "svg_linewidth_pt": 2.5,
+        "expected_style": "solid",
+        "width_bin": "0.2–0.4",
+        "stroke_dasharray": null,
+        "stroke_colour": "#0072b2"
+      },
+      {
+        "analysis_id": "H-M2",
+        "svg_style": "solid",
+        "svg_linewidth_pt": 2.5,
+        "expected_style": "solid",
+        "width_bin": "0.2–0.4",
+        "stroke_dasharray": null,
+        "stroke_colour": "#d55e00"
+      },
+      {
+        "analysis_id": "H-M3",
+        "svg_style": "solid",
+        "svg_linewidth_pt": 1.0,
+        "expected_style": "solid",
+        "width_bin": "<0.2",
+        "stroke_dasharray": null,
+        "stroke_colour": "#d55e00"
+      },
+      {
+        "analysis_id": "E1c",
+        "svg_style": "dashed",
+        "svg_linewidth_pt": 1.0,
+        "expected_style": "dashed",
+        "width_bin": "<0.2",
+        "stroke_dasharray": "5,3",
+        "stroke_colour": "#0072b2"
+      },
+      {
+        "analysis_id": "E1a",
+        "svg_style": "dashed",
+        "svg_linewidth_pt": 1.0,
+        "expected_style": "dashed",
+        "width_bin": "<0.2",
+        "stroke_dasharray": "5,3",
+        "stroke_colour": "#d55e00"
+      },
+      {
+        "analysis_id": "E10 IM",
+        "svg_style": "dashed",
+        "svg_linewidth_pt": 2.5,
+        "expected_style": "dashed",
+        "width_bin": "0.2–0.4",
+        "stroke_dasharray": "5,3",
+        "stroke_colour": "#0072b2"
+      },
+      {
+        "analysis_id": "E10 atrophy",
+        "svg_style": "dashed",
+        "svg_linewidth_pt": 2.5,
+        "expected_style": "dashed",
+        "width_bin": "0.2–0.4",
+        "stroke_dasharray": "5,3",
+        "stroke_colour": "#0072b2"
+      },
+      {
+        "analysis_id": "A4",
+        "svg_style": "dashdot",
+        "svg_linewidth_pt": 2.5,
+        "expected_style": "dashdot",
+        "width_bin": "0.2–0.4",
+        "stroke_dasharray": "7,2.8,1.2,2.8",
+        "stroke_colour": "#0072b2"
+      },
+      {
+        "analysis_id": "E9 niche",
+        "svg_style": "dashed",
+        "svg_linewidth_pt": 2.5,
+        "expected_style": "dashed",
+        "width_bin": "0.2–0.4",
+        "stroke_dasharray": "5,3",
+        "stroke_colour": "#d55e00"
+      }
+    ],
+    "E1a_F2_Korea_only": {
+      "cohorts": [
+        "F2 SILVA",
+        "Korea 16S SILVA"
+      ],
+      "stored_P_rule": "P < 0.05"
+    },
+    "E1a_locked_effect": {
+      "median_stored_R2": "0.0051234614203232651",
+      "descriptive_sqrt": "0.07157835860316486120142732397"
+    },
+    "PRJNA310127_retained_not_displayed": {
+      "cohort_key": "yu310127_silva",
+      "cohort_label": "PRJNA310127 SILVA",
+      "estimand": "noHP_rCLR PERMANOVA (stored; not rerun)",
+      "R2": "0.0084335046317319494",
+      "P": "0.071400000000000005",
+      "eligible_for_display_aggregation": "no",
+      "rule": "freeze_log 2026-11-11 10:11 CST: community-tissue (E1a noHP PERMANOVA P<0.05 in >=2 cohorts)",
+      "reason": "P=0.0714 does not meet P<0.05; omitted from DISPLAY aggregation only; negative/unsupported result retained in manuscript and this table"
+    },
+    "PNG_dpi_at_least_300": {
+      "Figure8A_v3_presentation.png": {
+        "pixels": [
+          2550,
+          2400
+        ],
+        "dpi": [
+          381.0,
+          381.0
+        ],
+        "physical_size_mm": [
+          169.99999999999997,
+          160.0
+        ]
+      },
+      "Figure8A_v3_preview.png": {
+        "pixels": [
+          1275,
+          1200
+        ],
+        "dpi": [
+          190.5,
+          190.5
+        ],
+        "physical_size_mm": [
+          169.99999999999997,
+          160.0
+        ]
+      },
+      "Figure8A_v3_physical_size_proof.png": {
+        "pixels": [
+          1425,
+          1410
+        ],
+        "dpi": [
+          190.5,
+          190.5
+        ],
+        "physical_size_mm": [
+          190.0,
+          188.0
+        ]
+      }
+    },
+    "PDF_fonts_embedded": [
+      "LCGXSL+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes     15  0",
+      "YMEMXR+DejaVuSans-Oblique            CID TrueType      Identity-H       yes yes yes     22  0",
+      "SQJHCA+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     29  0",
+      "EEZAWI+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     36  0"
+    ],
+    "caption_length_limits": {
+      "title_words": 11,
+      "legend_words": 254
+    },
+    "geometry_clear": {
+      "text_overlaps": [],
+      "clipped_text": [],
+      "text_outside_own_node": [],
+      "stroke_text_intersections": [],
+      "route_enters_node_interior": [],
+      "minimum_stroke_to_text_clearance_mm": 1.0062500000000114,
+      "edge_stroke_collisions": [],
+      "minimum_edge_stroke_gap_mm": 0.39705575342733446,
+      "endpoint_identity_errors": [],
+      "label_background_masks": 0,
+      "all_clear": true
+    },
+    "v2_hashes_match_before_and_after": {
+      "before": [
+        {
+          "path": "/workspace/gastric_microbiome_B/results/figures/revisions/Figure8_v2_frozen_node_edge/outputs/Figure8A_frozen_node_edge.png",
+          "expected_sha256": "14098d8536ac472e74565e8ce8087ed81904cb5c0163fa5e95c07bebb4f90f65",
+          "actual_sha256": "14098d8536ac472e74565e8ce8087ed81904cb5c0163fa5e95c07bebb4f90f65",
+          "matches": true
+        },
+        {
+          "path": "/workspace/gastric_microbiome_B/results/figures/revisions/Figure8_v2_frozen_node_edge/outputs/Figure8A_frozen_node_edge.svg",
+          "expected_sha256": "eb6a898279fee21a21bc8122449a1e487eaa556ec6324c16c761447be5e91dd5",
+          "actual_sha256": "eb6a898279fee21a21bc8122449a1e487eaa556ec6324c16c761447be5e91dd5",
+          "matches": true
+        },
+        {
+          "path": "/workspace/gastric_microbiome_B/results/figures/revisions/Figure8_v2_frozen_node_edge/outputs/Figure8A_frozen_node_edge.pdf",
+          "expected_sha256": "030a1458d36c0a6c9a0581c9bafa630fb109bdc3c193e7760f540214f30eede2",
+          "actual_sha256": "030a1458d36c0a6c9a0581c9bafa630fb109bdc3c193e7760f540214f30eede2",
+          "matches": true
+        },
+        {
+          "path": "/workspace/gastric_microbiome_B/results/figures/revisions/Figure8_v2_frozen_node_edge/scripts/plot_figure8a_frozen_node_edge.py",
+          "expected_sha256": "b661123d7ed83c84154dcfbefa4124a2aac16d3f3d19c6ed2ec3105d522ab14c",
+          "actual_sha256": "b661123d7ed83c84154dcfbefa4124a2aac16d3f3d19c6ed2ec3105d522ab14c",
+          "matches": true
+        },
+        {
+          "path": "/workspace/gastric_microbiome_B/results/figures/revisions/Figure8_v2_frozen_node_edge/inputs/figure8a_source_associations.csv",
+          "expected_sha256": "e07dbe79ca99c85136e17b2a97fe96a4e36e670ab8c230f300be324812cfa948",
+          "actual_sha256": "e07dbe79ca99c85136e17b2a97fe96a4e36e670ab8c230f300be324812cfa948",
+          "matches": true
+        },
+        {
+          "path": "/workspace/gastric_microbiome_B/results/figures/revisions/Figure8_v2_frozen_node_edge/inputs/e1a_display_aggregation.csv",
+          "expected_sha256": "13fa0b5fe6ca1efbab03500203aaf025e00c1d8b265d45532bfa4817e845e11f",
+          "actual_sha256": "13fa0b5fe6ca1efbab03500203aaf025e00c1d8b265d45532bfa4817e845e11f",
+          "matches": true
+        }
+      ],
+      "after": [
+        {
+          "path": "/workspace/gastric_microbiome_B/results/figures/revisions/Figure8_v2_frozen_node_edge/outputs/Figure8A_frozen_node_edge.png",
+          "expected_sha256": "14098d8536ac472e74565e8ce8087ed81904cb5c0163fa5e95c07bebb4f90f65",
+          "actual_sha256": "14098d8536ac472e74565e8ce8087ed81904cb5c0163fa5e95c07bebb4f90f65",
+          "matches": true
+        },
+        {
+          "path": "/workspace/gastric_microbiome_B/results/figures/revisions/Figure8_v2_frozen_node_edge/outputs/Figure8A_frozen_node_edge.svg",
+          "expected_sha256": "eb6a898279fee21a21bc8122449a1e487eaa556ec6324c16c761447be5e91dd5",
+          "actual_sha256": "eb6a898279fee21a21bc8122449a1e487eaa556ec6324c16c761447be5e91dd5",
+          "matches": true
+        },
+        {
+          "path": "/workspace/gastric_microbiome_B/results/figures/revisions/Figure8_v2_frozen_node_edge/outputs/Figure8A_frozen_node_edge.pdf",
+          "expected_sha256": "030a1458d36c0a6c9a0581c9bafa630fb109bdc3c193e7760f540214f30eede2",
+          "actual_sha256": "030a1458d36c0a6c9a0581c9bafa630fb109bdc3c193e7760f540214f30eede2",
+          "matches": true
+        },
+        {
+          "path": "/workspace/gastric_microbiome_B/results/figures/revisions/Figure8_v2_frozen_node_edge/scripts/plot_figure8a_frozen_node_edge.py",
+          "expected_sha256": "b661123d7ed83c84154dcfbefa4124a2aac16d3f3d19c6ed2ec3105d522ab14c",
+          "actual_sha256": "b661123d7ed83c84154dcfbefa4124a2aac16d3f3d19c6ed2ec3105d522ab14c",
+          "matches": true
+        },
+        {
+          "path": "/workspace/gastric_microbiome_B/results/figures/revisions/Figure8_v2_frozen_node_edge/inputs/figure8a_source_associations.csv",
+          "expected_sha256": "e07dbe79ca99c85136e17b2a97fe96a4e36e670ab8c230f300be324812cfa948",
+          "actual_sha256": "e07dbe79ca99c85136e17b2a97fe96a4e36e670ab8c230f300be324812cfa948",
+          "matches": true
+        },
+        {
+          "path": "/workspace/gastric_microbiome_B/results/figures/revisions/Figure8_v2_frozen_node_edge/inputs/e1a_display_aggregation.csv",
+          "expected_sha256": "13fa0b5fe6ca1efbab03500203aaf025e00c1d8b265d45532bfa4817e845e11f",
+          "actual_sha256": "13fa0b5fe6ca1efbab03500203aaf025e00c1d8b265d45532bfa4817e845e11f",
+          "matches": true
+        }
+      ],
+      "scope": "six supplied baseline paths only"
+    }
+  },
+  "declared_check_size_mm": [
+    170.0,
+    160.0
+  ],
+  "journal_compliance_claim": false,
+  "no_new_statistical_inference": true,
+  "residual_issues": []
+}

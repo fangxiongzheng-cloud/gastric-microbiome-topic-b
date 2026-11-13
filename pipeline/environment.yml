@@ -1,0 +1,12 @@
+# Versions actually used for the 352-run Korean analysis (box conda envs 'shotgun' and 'salmon', 2026-10/11).
+name: hp-hostrna
+channels: [conda-forge, bioconda]
+dependencies:
+  - sra-tools=3.4.1
+  - fastp=1.4.0
+  - salmon=2.8.0
+  - bowtie2=2.5.5
+  - samtools=1.25
+  - kraken2=2.17.2
+  - curl
+  - python=3.11

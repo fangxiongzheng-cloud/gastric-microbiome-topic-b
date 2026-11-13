@@ -1,0 +1,26 @@
+# Partial snapshot of selected current conda metadata, not a complete export/lock.
+# Historical use, dependency closure, platform builds and solvability NOT verified.
+name: gastric-observed-qiime2
+channels: [conda-forge, bioconda]
+dependencies:
+  - bioconductor-ancombc=2.4.0
+  - bioconductor-dada2=1.30.0
+  - biom-format=2.1.16
+  - bowtie2=2.5.4
+  - curl=8.8.0
+  - cutadapt=5.1
+  - fastp=0.24.0
+  - gawk=5.3.1
+  - numpy=1.26.4
+  - pandas=2.2.2
+  - python=3.10.14
+  - q2-cutadapt=2026.1.0
+  - q2-dada2=2026.1.0
+  - q2-feature-classifier=2026.1.0
+  - q2-feature-table=2026.1.0
+  - q2-types=2026.1.0
+  - qiime2=2026.1.0
+  - r-base=4.3.3
+  - samtools=1.21
+  - scipy=1.13.0
+  - statsmodels=0.14.5
